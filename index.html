@@ -8,20 +8,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
         integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
+    <!--.Los iconos estan alojados en https://fontawesome.com/v4/icons/ 
+        . Las banderas se descargaron de https://flagicons.lipis.dev/ -->
     <div class="container">
         <div class="left_side">
+
+            <div id="flags" class="flags">
+                <div class="flags_item" data-language="ar">
+                    <img src="icons/ar.svg" alt="Idioma Español">
+                </div>
+                <div class="flags_item" data-language="en">
+                    <img src="icons/gb.svg" alt="Idioma Inglés">
+                </div>
+            </div>
+
+
+            <!--
+            <div class="drop-down"> 
+                <select id="idioma" name="options"> 
+                    
+                    Emoji de banderas https://emojiterra.com/es/banderas/
+                    <option value="ar" selected>🇦🇷</option> 
+                    <option value="en">🇬🇧</option> 
+                </select> 
+            </div>
+            -->
             <div class="profileText">
                 <div class="imgBx">
                     <img src="images/foto1.jpg" alt="Foto Personal">
                 </div>
-                <h2>Vicente Llanos <br><span>Java Developer Jr</span></h2>
+                <h2>Vicente Llanos <br><span data-section="profile" data-value="rol">Desarrollador Java Jr</span></h2>
             </div>
+
             <div class="contactInfo">
-                <h3 class="title">Contactos</h3>
+                <h3 class="title" data-section="profile" data-value="contacts">Contactos</h3>
                 <ul>
                     <li>
                         <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
@@ -47,47 +71,47 @@
             </div>
 
             <div class="contactInfo education">
-                <h3 class="title">Estudios</h3>
+                <h3 class="title" data-section="education" data-value="name">Estudios</h3>
                 <ul>
                     <li>
                         <h5>2022</h5>
-                        <h4>Udemy</h4>
-                        <h4>Curso de Java, POO, JDBC</h4>
+                        <h4 data-section="education" data-value="udemy">Udemy</h4>
+                        <h4 data-section="education" data-value="content-u">Curso de Java, POO, JDBC</h4>
                     </li>
                 </ul>
 
                 <ul>
                     <li>
                         <h5>2022</h5>
-                        <h4>Fundación Telefónica</h4>
-                        <h4>Principios de Programación</h4>
-                        <h4>Programación en lenguaje Java</h4>
-                        <h4>Diseño Web con HTML5 y CSS</h4>
+                        <h4 data-section="education" data-value="ft">Fundación Telefónica</h4>
+                        <h4 data-section="education" data-value="content-ft1">Principios de Programación</h4>
+                        <h4 data-section="education" data-value="content-ft2">Programación en lenguaje Java</h4>
+                        <h4 data-section="education" data-value="content-ft3">Diseño Web con HTML5 y CSS</h4>
                     </li>
                 </ul>
 
                 <ul>
                     <li>
                         <h5>2022</h5>
-                        <h4>Fundación Educativa Santísima Trinidad</h4>
-                        <h4>Programcion Java y manejo de Base de Datos Relacionales
+                        <h4 data-section="education" data-value="fesat">Fundación Educativa Santísima Trinidad</h4>
+                        <h4 data-section="education" data-value="fesat-1">Programcion Java y manejo de Base de Datos Relacionales
                             (MySQL)</h4>
                     </li>
                 </ul>
             </div>
 
             <div class="contactInfo lenguaje">
-                <h3 class="title">Lenguaje</h3>
+                <h3 class="title" data-section="Language" data-value="l-title">Lenguaje</h3>
                 <ul>
                     <li>
-                        <span class="text">Español</span>
+                        <span class="text" data-section="Language" data-value="l-1">Español</span>
                         <span class="percent">
                             <div style="width: 100%;"></div>
                         </span>
                     </li>
 
                     <li>
-                        <span class="text">Inglés</span>
+                        <span class="text" data-section="Language" data-value="l-2">Inglés</span>
                         <span class="percent">
                             <div style="width: 20%;"></div>
                         </span>
@@ -97,16 +121,16 @@
         </div>
         <div class="rigth_side">
             <div class="about">
-                <h2 class="title2">Sobre Mí</h2>
-                <p>
+                <h2 class="title2" data-section="description" data-value="des-1">Sobre Mí</h2>
+                <p data-section="description" data-value="des-2">
                     &nbsp;&nbsp;&nbsp;&nbsp; Siempre me gustó la informática y es
                     algo que deje inconcluso desde que deje
                     la facultad. Ahora quiero trabajar
                     Programando, tengo muchas ganas de
                     aprender, sé que lo que se aprende
                     trabajando no se aprende en ningún
-                    curso o capacitación.</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp; Sigo tratando de pulir mis
+                    curso o capacitació><br>
+                &nbsp;&nbsp;&nbsp;&nbsp; Sigo tratando de pulir mis
                     conocimientos en Java, SQL, Git, html,
                     CSS porque me considero una persona
                     proactiva, responsable, amable, con
@@ -134,7 +158,7 @@
             </div>
         -->
             <div class="about skills">
-                <h2 class="title2">Herramientas de Software</h2>
+                <h2 class="title2" data-section="skills" data-value="sk-title">Herramientas de Software</h2>
                 <div class="box">
                     <h4>JAVA</h4>
                 </div>
@@ -162,35 +186,36 @@
             </div>
 
             <div class="about aptitudes">
-                <h2 class="title2">Aptitudes</h2>
+                <h2 class="title2" data-section="aptitude" data-value="apt-title">Aptitudes</h2>
                 <ul>
-                    <li>Capacidad de trabajo en equipo</li>
-                    <li>Proactividad</li>
-                    <li>Responsabilidad</li>
-                    <li>Capacidad de actualizar los conocimientos</li>
-                    <li>Positividad</li>
+                    <li data-section="aptitude" data-value="apt-1">Capacidad de trabajo en equipo</li>
+                    <li data-section="aptitude" data-value="apt-2">Proactividad</li>
+                    <li data-section="aptitude" data-value="apt-3">Responsabilidad</li>
+                    <li data-section="aptitude" data-value="apt-4">Capacidad de actualizar los conocimientos</li>
+                    <li data-section="aptitude" data-value="apt-5">Positividad</li>
                 </ul>
             </div>
 
             <div class="about interest">
-                <h2 class="title2">Otros Intereses</h2>
+                <h2 class="title2" data-section="interest" data-value="inte-title">Otros Intereses</h2>
                 <ul>
                     <li>
-                        <span class="icon"><i class="fa fa-futbol-o" aria-hidden="true"></i>&nbsp;&nbsp;Futbol</span>
+                        <span class="icon" data-section="interest" data-value="inte-1"><i class="fa fa-futbol-o" aria-hidden="true"></i>&nbsp;&nbsp;Futbol</span>
                     </li>
                     <li>
-                        <span class="icon"><i class="fa fa-gamepad" aria-hidden="true"></i>&nbsp;&nbsp;Juego de Video</span>
+                        <span class="icon"data-section="interest" data-value="inte-2"><i class="fa fa-gamepad" aria-hidden="true"></i>&nbsp;&nbsp;Juego de Video</span>
                     </li>
                     <li>
-                        <span class="icon"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;&nbsp;Lectura</span>
+                        <span class="icon" data-section="interest" data-value="inte-3"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;&nbsp;Lectura</span>
                     </li>
                     <li>
-                        <span class="icon"><i class="fa fa-film" aria-hidden="true"></i>&nbsp;&nbsp;Peliculas</span>
+                        <span class="icon" data-section="interest" data-value="inte-4"><i class="fa fa-film" aria-hidden="true"></i>&nbsp;&nbsp;Peliculas</span>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

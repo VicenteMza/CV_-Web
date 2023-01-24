@@ -33,6 +33,22 @@ body{
      padding: 40px;
 }
 
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flags_item{
+    width: 20px;
+}
+
+.flags_img{
+    display: block;
+    cursor: pointer;
+}
+
 .profileText{
     position: relative;
     display: flex;

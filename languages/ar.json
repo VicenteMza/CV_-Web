@@ -1,0 +1,44 @@
+{
+    "profile":{
+        "rol":"Desarrollador Java Jr",
+        "contacts":"Contactos"
+    },
+    "education":{
+        "name": "Estudios",
+        "udemy": "Udemy",
+        "content-u": "Curso de Java, POO, JDBC",
+        "ft": "Fundación Telefónica",
+        "content-ft1":"Principios de Programación",
+        "content-ft2":"Programación en lenguaje Java",
+        "content-ft3":"Diseño Web con HTML5 y CSS",
+        "fesat":"Fundación Educativa Santísima Trinidad",
+        "fesat-1":"Programcion Java y manejo de Base de Datos Relacionales (MySQL)"
+    },
+    "Language":{
+        "l-title":"Lenguaje",
+        "l-1":"Español",
+        "l-2": "Inglés"
+    },
+    "description":{
+        "des-1":"Sobre Mí",
+        "des-2": "&nbsp;&nbsp;&nbsp;&nbsp;Siempre me gustó la informática y es algo que deje inconcluso desde que deje la facultad. Ahora quiero trabajar Programando, tengo muchas ganas de aprender, sé que lo que se aprende trabajando no se aprende en ningún curso o capacitació<br>&nbsp;&nbsp;&nbsp;&nbsp;Sigo tratando de pulir mis conocimientos en Java, SQL, Git, html, CSS porque me considero una persona proactiva, responsable, amable, con muchas ganas de aprender y afrontar nuevos desafíos para así poder desarrollarme como profesional."
+    },
+    "skills":{
+        "sk-title":"Herramientas de Software"
+    },
+    "aptitude":{
+        "apt-title":"Aptitudes",
+        "apt-1":"Capacidad de trabajo en equipo",
+        "apt-2":"Proactividad",
+        "apt-3":"Responsabilidad",
+        "apt-4":"Capacidad de actualizar los conocimientos",
+        "apt-5":"Positividad"
+    },
+    "interest":{
+        "inte-title":"Otros Intereses",
+        "inte-1":"<i class='fa fa-futbol-o' aria-hidden='true'></i>&nbsp;&nbsp;Futbol",
+        "inte-2":"<i class='fa fa-gamepad' aria-hidden='true'></i>&nbsp;&nbsp;Juego de Video",
+        "inte-3":"<i class='fa fa-book' aria-hidden='true'></i>&nbsp;&nbsp;Lectura",
+        "inte-4":"<i class='fa fa-film' aria-hidden='true'></i>&nbsp;&nbsp;Películas"
+    }
+}

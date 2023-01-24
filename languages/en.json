@@ -1,0 +1,44 @@
+{
+    "profile":{
+        "rol":"Java developer jr",
+        "contacts":"Contacts"
+    },
+    "education":{
+        "name": "Studies",
+        "udemy": "Udemy",
+        "content-u": "Java course, OOP, JDBC",
+        "ft": "Fundación Telefónican",
+        "content-ft1":"Programming Principles",
+        "content-ft2":"Programming in Java language",
+        "content-ft3":"Web design with HTML5 and CSS",
+        "fesat":"Fundación Educativa Santísima Trinidad",
+        "fesat-1":"Java Programming and Relational Database Management (MySQL)"
+    },
+    "Language":{
+        "l-title":"Language",
+        "l-1":"Spanish",
+        "l-2": "English"
+    },
+    "description":{
+        "des-1":"About Me",
+        "des-2": "&nbsp;&nbsp;&nbsp;&nbsp;I've always liked computing and it's something I've left unfinished since I left college. Now I want to work Programming, I really want to learn, I know what you learn by working you don't learn in any course or training<br>&nbsp;&nbsp;&nbsp;&nbsp;I keep trying to polish my knowledge in Java, SQL, Git, html, CSS because I consider myself a proactive, responsible, friendly person, eager to learn and face new challenges in order to develop as a professional."
+    },
+    "skills":{
+        "sk-title":"Software Tools"
+    },
+    "aptitude":{
+        "apt-title":"Aptitudes",
+        "apt-1":"Ability to work in a team",
+        "apt-2":"Proactivity",
+        "apt-3":"Responsibility",
+        "apt-4":"Ability to update knowledge",
+        "apt-5":"Positivity"
+    },
+    "interest":{
+        "inte-title":"Other Interests",
+        "inte-1":"<i class='fa fa-futbol-o' aria-hidden='true'></i>&nbsp;&nbsp;Football",
+        "inte-2":"<i class='fa fa-gamepad' aria-hidden='true'></i>&nbsp;&nbsp;Video Game",
+        "inte-3":"<i class='fa fa-book' aria-hidden='true'></i>&nbsp;&nbsp;Read",
+        "inte-4":"<i class='fa fa-film' aria-hidden='true'></i>&nbsp;&nbsp;Movies"
+    }
+}
