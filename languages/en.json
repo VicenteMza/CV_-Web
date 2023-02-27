@@ -1,6 +1,6 @@
 {
     "profile":{
-        "rol":"Java developer jr",
+        "rol":"Java developer",
         "contacts":"Contacts"
     },
     "education":{
@@ -12,7 +12,9 @@
         "content-ft2":"Programming in Java language",
         "content-ft3":"Web design with HTML5 and CSS",
         "fesat":"Fundación Educativa Santísima Trinidad",
-        "fesat-1":"Java Programming and Relational Database Management (MySQL)"
+        "fesat-1":"Java Programming and Relational Database Management (MySQL)",
+        "utn":"UTN Regional Faculty Mendoza",
+        "utn-1":"Information systems engineering"
     },
     "Language":{
         "l-title":"Language",
@@ -21,7 +23,7 @@
     },
     "description":{
         "des-1":"About Me",
-        "des-2": "&nbsp;&nbsp;&nbsp;&nbsp;I've always liked computing and it's something I've left unfinished since I left college. Now I want to work Programming, I really want to learn, I know what you learn by working you don't learn in any course or training<br>&nbsp;&nbsp;&nbsp;&nbsp;I keep trying to polish my knowledge in Java, SQL, Git, html, CSS because I consider myself a proactive, responsible, friendly person, eager to learn and face new challenges in order to develop as a professional."
+        "des-2": "&nbsp;&nbsp;&nbsp;&nbsp;I have always had a great interest in computers, although I left unfinished my university education in this area. now with determination and a proactive attitude, I have decided resume my career and focus on programming. I am investing my time to learn and improve my skills in Java, SQL, Git, HTML and CSS, knowing that the experience in the work is not learned in any course or training.<br> &nbsp;&nbsp;&nbsp;&nbsp;I consider myself a person responsible, kind and with many desire to learn and face new challenges. It motivates me to be able to contribute with my talent and knowledge in the development of innovative projects, and be in a work environment collaborative where I can follow growing as a professional."
     },
     "skills":{
         "sk-title":"Software Tools"

@@ -1,6 +1,6 @@
 {
     "profile":{
-        "rol":"Desarrollador Java Jr",
+        "rol":"Desarrollador Java",
         "contacts":"Contactos"
     },
     "education":{
@@ -12,7 +12,9 @@
         "content-ft2":"Programación en lenguaje Java",
         "content-ft3":"Diseño Web con HTML5 y CSS",
         "fesat":"Fundación Educativa Santísima Trinidad",
-        "fesat-1":"Programcion Java y manejo de Base de Datos Relacionales (MySQL)"
+        "fesat-1":"Programcion Java y manejo de Base de Datos Relacionales (MySQL)",
+        "utn":"UTN Facultad Regional Mendoza",
+        "utn-1":"Ingeniería de sistemas de información"
     },
     "Language":{
         "l-title":"Lenguaje",
@@ -21,7 +23,7 @@
     },
     "description":{
         "des-1":"Sobre Mí",
-        "des-2": "&nbsp;&nbsp;&nbsp;&nbsp;Siempre me gustó la informática y es algo que deje inconcluso desde que deje la facultad. Ahora quiero trabajar Programando, tengo muchas ganas de aprender, sé que lo que se aprende trabajando no se aprende en ningún curso o capacitació<br>&nbsp;&nbsp;&nbsp;&nbsp;Sigo tratando de pulir mis conocimientos en Java, SQL, Git, html, CSS porque me considero una persona proactiva, responsable, amable, con muchas ganas de aprender y afrontar nuevos desafíos para así poder desarrollarme como profesional."
+        "des-2": "&nbsp;&nbsp;&nbsp;&nbsp;Desde siempre he tenido un gran interés por la informática, aunque dejé inconclusa mi formación universitaria en esta área. Ahora, con determinación y una actitud proactiva, he decidido retomar mi carrera y enfocarme en programación. Estoy invirtiendo mi tiempo en aprender y mejorar mis habilidades en Java, SQL, Git, HTML y CSS, sabiendo que la experiencia en el trabajo no se aprende en ningún curso o capacitación.<br> &nbsp;&nbsp;&nbsp;&nbsp;Considero que soy una persona responsable, amable y con muchas ganas de aprender y enfrentar nuevos desafíos. Me motiva poder contribuir con mi talento y conocimiento en el desarrollo de proyectos innovadores, y estar en un ambiente de trabajo colaborativo donde pueda seguir creciendo como profesional."
     },
     "skills":{
         "sk-title":"Herramientas de Software"
